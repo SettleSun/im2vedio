@@ -1,7 +1,7 @@
 #coding:utf-8
 import cv2
 import os
-imgDir = './image/'
+imgDir = './image/ggg'
 if not os.path.exists(imgDir):
 	os.mkdir(imgDir)
 vc=cv2.VideoCapture('vedio.mp4')
